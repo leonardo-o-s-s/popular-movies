@@ -139,9 +139,17 @@ footer {
     text-decoration: none;
 }
 
+.texto__rodape-nome {
+    color: var(--cor-checkbox);
+}
+
 @media (max-width: 850px) {
     .filmes {
         margin: 0 1.75em;
+    }
+
+    .inicio__pesquisa {
+        width: 80%;
     }
 
     .filmes__filme {
