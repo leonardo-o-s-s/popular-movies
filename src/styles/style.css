@@ -48,6 +48,7 @@ body {
 
 .filmes {
     display: flex;
+    margin: 0 6.75em;
 }
 
 .filmes__filme {
@@ -56,6 +57,12 @@ body {
     align-items: center;
     justify-content: space-around;
     align-items: center;
+    padding: 2em 0;
+}
+
+.filmes__filme-imagem {
+    width: 10%;
+    border-radius: 4em;
 }
 
 .filmes__filme-detalhes {
@@ -63,6 +70,20 @@ body {
     flex-direction: column;
 }
 
+.filmes__filme-titulo {
+    font-size: 1.12rem;
+}
+
+.filmes__filme-svg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filmes__filme-descricao {
+    width: 50%;
+    color: var(--cor-descricao);
+    font-size: 1.12rem;
+}
 
 #coracao {
     display: none;
