@@ -114,3 +114,23 @@ body {
         fill: #BA0707;
     }
 }
+
+@media (max-width: 850px) {
+    .filmes {
+        margin: 0 1.75em;
+    }
+
+    .filmes__filme {
+        flex-direction: column;
+    }
+
+    .filmes__filme-descricao,
+    .filmes__filme-detalhes {
+        width: auto;
+        padding: 0.5em;
+    }
+
+    .filmes__filme-imagem {
+        width: 20%;
+    }
+}
