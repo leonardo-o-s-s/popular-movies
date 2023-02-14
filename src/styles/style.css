@@ -57,3 +57,29 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
+.filmes__filme-detalhes {
+    display: flex;
+    flex-direction: column;
+}
+
+#coracao {
+    display: none;
+}
+
+
+#coracao:checked+label>svg {
+    animation: preencher;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes preencher {
+    0% {
+        fill: pink;
+    }
+
+    100% {
+        fill: #BA0707;
+    }
+}
