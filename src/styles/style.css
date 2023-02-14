@@ -24,6 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    row-gap: 1em;
 }
 
 .inicio__titulo-principal {
@@ -41,6 +42,7 @@ body {
 
 .inicio__checkbox {
     text-align: center;
+    margin: 0 0 2em 0;
 }
 
 #favoritos {
