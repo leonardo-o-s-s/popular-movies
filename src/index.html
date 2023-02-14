@@ -2,15 +2,25 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./public/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/icons8-filme-32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Popular Movies</title>
 </head>
 
 <body>
-  <div id="app"></div>
-  <script type="module" src="./scripts/main.js"></script>
+    <main>
+        <section class="inicio">
+            <h1 class="inicio__titulo-principal">Filmes Populares</h1>
+            <input type="search" class="inicio__pesquisa" placeholder="Digite algum filme para pesquisar...">
+            <label for="favoritos">
+                <input type="checkbox" id="favoritos" class="inicio__favoritos">
+                <p>Mostrar meus favoritos apenas</p>
+            </label>
+        </section>
+    </main>
 </body>
 
 </html>
