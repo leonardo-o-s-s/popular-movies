@@ -1,0 +1,8 @@
+fonte: Kumbh Sans
+peso: 600, 500
+
+
+<label for="favoritos">
+                    <input type="checkbox" id="favoritos" class="inicio__favoritos">
+                    <p>Mostrar meus favoritos apenas</p>
+                </label>
