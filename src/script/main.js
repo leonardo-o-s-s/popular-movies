@@ -25,6 +25,14 @@ const movies = [
         description: "On Halloween, Gotham City mayor Don Mitchell Jr. is murdered by a serial killer calling himself the Riddler. Billionaire Bruce Wayne, who has operated for two years as the vigilante Batman, investigates alongside the Gotham City Police Department (GCPD).",
         isFavorited: false
     },
+    {
+        image: 'https://upload.wikimedia.org/wikipedia/en/1/17/Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpg',
+        title: 'Doctor Strange',
+        rating: 9.2,
+        year: 2022,
+        description: "On Halloween, Gotham City mayor Don Mitchell Jr. is murdered by a serial killer calling himself the Riddler. Billionaire Bruce Wayne, who has operated for two years as the vigilante Batman, investigates alongside the Gotham City Police Department (GCPD).",
+        isFavorited: false
+    }
 ]
 
 movies.forEach(movie => renderMovie(movie));
