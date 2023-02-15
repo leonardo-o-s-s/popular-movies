@@ -1,8 +1,3 @@
-
-
-console.log("ooi");
-
-// 1 - separar os elementos html
 const section = document.querySelector(".filmes");
 
 const movies = [
@@ -58,6 +53,3 @@ function renderMovie(movie) {
             </div>
     `
 }
-
-// movies.forEach(movie => renderMovie(movie))
-// movies.forEach(filmes => console.log(filmes))
